@@ -1,0 +1,968 @@
+[
+   {
+      "pk": 710861,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 40,
+         "away_team": 38,
+         "date": "2022-04-02",
+         "time": "11:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 40,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Liverpool",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/40.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 38,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Watford",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/38.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710856,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 51,
+         "away_team": 71,
+         "date": "2022-04-02",
+         "time": "14:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 51,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Brighton",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/51.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 71,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Norwich",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/71.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710857,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 44,
+         "away_team": 50,
+         "date": "2022-04-02",
+         "time": "14:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 44,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Burnley",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/44.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 50,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Manchester City",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/50.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710858,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 49,
+         "away_team": 55,
+         "date": "2022-04-02",
+         "time": "14:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 49,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Chelsea",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/49.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 55,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Brentford",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/55.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710860,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 63,
+         "away_team": 41,
+         "date": "2022-04-02",
+         "time": "14:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 63,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Leeds",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/63.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Southampton",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/41.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710865,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 39,
+         "away_team": 66,
+         "date": "2022-04-02",
+         "time": "14:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Wolves",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/39.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 66,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Aston Villa",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/66.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 710862,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 33,
+         "away_team": 46,
+         "date": "2022-04-02",
+         "time": "16:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 33,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Manchester United",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/33.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 46,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Leicester",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/46.png",
+         "league": 39
+      }
+   },
+   {
+      "pk": 39,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Premier League",
+         "logo": "https://media.api-sports.io/football/leagues/39.png"
+      }
+   },
+   {
+      "pk": 718646,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 84,
+         "away_team": 94,
+         "date": "2022-04-02",
+         "time": "15:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 84,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Nice",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/84.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 94,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Rennes",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/94.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 61,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Ligue 1",
+         "logo": "https://media.api-sports.io/football/leagues/61.png"
+      }
+   },
+   {
+      "pk": 718642,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 79,
+         "away_team": 78,
+         "date": "2022-04-02",
+         "time": "17:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 79,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Lille",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/79.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Bordeaux",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/78.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 61,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Ligue 1",
+         "logo": "https://media.api-sports.io/football/leagues/61.png"
+      }
+   },
+   {
+      "pk": 718648,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 1063,
+         "away_team": 81,
+         "date": "2022-04-02",
+         "time": "19:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 1063,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Saint Etienne",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1063.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 81,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Marseille",
+         "country": "France",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/81.png",
+         "league": 61
+      }
+   },
+   {
+      "pk": 61,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Ligue 1",
+         "logo": "https://media.api-sports.io/football/leagues/61.png"
+      }
+   },
+   {
+      "pk": 719593,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 169,
+         "away_team": 178,
+         "date": "2022-04-02",
+         "time": "13:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 169,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Eintracht Frankfurt",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/169.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 178,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "SpVgg Greuther Furth",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/178.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 719594,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 168,
+         "away_team": 159,
+         "date": "2022-04-02",
+         "time": "13:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 168,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Bayer Leverkusen",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/168.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 159,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Hertha Berlin",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/159.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 719597,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 160,
+         "away_team": 157,
+         "date": "2022-04-02",
+         "time": "13:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 160,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "SC Freiburg",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/160.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 157,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Bayern Munich",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/157.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 719598,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 167,
+         "away_team": 176,
+         "date": "2022-04-02",
+         "time": "13:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 167,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "1899 Hoffenheim",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/167.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 176,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "VfL BOCHUM",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/176.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 719600,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 188,
+         "away_team": 172,
+         "date": "2022-04-02",
+         "time": "13:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 188,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Arminia Bielefeld",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/188.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 172,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "VfB Stuttgart",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/172.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 719592,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 165,
+         "away_team": 173,
+         "date": "2022-04-02",
+         "time": "16:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 165,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Borussia Dortmund",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/165.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 173,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "RB Leipzig",
+         "country": "Germany",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/173.png",
+         "league": 78
+      }
+   },
+   {
+      "pk": 78,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Bundesliga 1",
+         "logo": "https://media.api-sports.io/football/leagues/78.png"
+      }
+   },
+   {
+      "pk": 731892,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 515,
+         "away_team": 517,
+         "date": "2022-04-02",
+         "time": "13:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 515,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Spezia",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/515.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 517,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Venezia",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/517.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 135,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Serie A",
+         "logo": "https://media.api-sports.io/football/leagues/135.png"
+      }
+   },
+   {
+      "pk": 731888,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 487,
+         "away_team": 488,
+         "date": "2022-04-02",
+         "time": "16:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 487,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Lazio",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/487.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 488,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Sassuolo",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/488.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 135,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Serie A",
+         "logo": "https://media.api-sports.io/football/leagues/135.png"
+      }
+   },
+   {
+      "pk": 731890,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 514,
+         "away_team": 503,
+         "date": "2022-04-02",
+         "time": "18:45",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 514,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Salernitana",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/514.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 503,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Torino",
+         "country": "Italy",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/503.png",
+         "league": 135
+      }
+   },
+   {
+      "pk": 135,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "Serie A",
+         "logo": "https://media.api-sports.io/football/leagues/135.png"
+      }
+   },
+   {
+      "pk": 721034,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 546,
+         "away_team": 798,
+         "date": "2022-04-02",
+         "time": "12:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 546,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Getafe",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/546.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 798,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Mallorca",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/798.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 140,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "La Liga",
+         "logo": "https://media.api-sports.io/football/leagues/140.png"
+      }
+   },
+   {
+      "pk": 721036,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 539,
+         "away_team": 533,
+         "date": "2022-04-02",
+         "time": "14:15",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 539,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Levante",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/539.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 533,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Villarreal",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/533.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 140,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "La Liga",
+         "logo": "https://media.api-sports.io/football/leagues/140.png"
+      }
+   },
+   {
+      "pk": 721033,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 538,
+         "away_team": 541,
+         "date": "2022-04-02",
+         "time": "16:30",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 538,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Celta Vigo",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/538.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 541,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Real Madrid",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/541.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 140,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "La Liga",
+         "logo": "https://media.api-sports.io/football/leagues/140.png"
+      }
+   },
+   {
+      "pk": 721030,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 530,
+         "away_team": 542,
+         "date": "2022-04-02",
+         "time": "19:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 530,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Atletico Madrid",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/530.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 542,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Alaves",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/542.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 140,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "La Liga",
+         "logo": "https://media.api-sports.io/football/leagues/140.png"
+      }
+   }
+]

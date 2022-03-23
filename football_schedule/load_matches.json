@@ -1,0 +1,146 @@
+[
+   {
+      "pk": 140,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "La Liga",
+         "logo": "https://media.api-sports.io/football/leagues/140.png"
+      }
+   },
+   {
+      "pk": 721019,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 542,
+         "away_team": 715,
+         "date": "2022-03-19",
+         "time": "13:00:00",
+         "goals_home": 2,
+         "goals_away": 3
+      }
+   },
+   {
+      "pk": 542,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Alaves",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/542.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 715,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Granada CF",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/715.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 721024,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 727,
+         "away_team": 539,
+         "date": "2022-03-19",
+         "time": "17:30:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 727,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Osasuna",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/727.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 539,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Levante",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/539.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 721027,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 728,
+         "away_team": 530,
+         "date": "2022-03-19",
+         "time": "20:00:00",
+         "goals_home": null,
+         "goals_away": null
+      }
+   },
+   {
+      "pk": 728,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Rayo Vallecano",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/728.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 530,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Atletico Madrid",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/530.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 721028,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 797,
+         "away_team": 532,
+         "date": "2022-03-19",
+         "time": "15:15:00",
+         "goals_home": 0,
+         "goals_away": 0
+      }
+   },
+   {
+      "pk": 797,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Elche",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/797.png",
+         "league": 140
+      }
+   },
+   {
+      "pk": 532,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Valencia",
+         "country": "Spain",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/532.png",
+         "league": 140
+      }
+   }
+]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake bookie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="text_center">Welcome to FAKE BOOKMAKER !</h1>
+    <p class="text_center">Sports betting made fun :)
+    </p>
+  </div>
+</div>
+
+<div>
+    {% for league in leagues %}
+<!--    <p style="color:blue;font-size:18px;">This is demo text</p>-->
+    <p style="color:blue;font-size:20px;"><strong>{{league.name}}</strong> <img src="{{league.logo}}" height="30" width="30">
+    </p>
+    {% endfor %}
+    <br>
+
+
+</div>
+
+<!--{% for match in matches %}-->
+<!--<p style="color:brown;font-size:25px;"><img src="{{match.home_team.logo}}" height="30" width="30"> {{match.home_team}}-->
+<!--    &nbsp;&nbsp;&nbsp;vs&nbsp;&nbsp;&nbsp;-->
+<!--    <img src="{{match.away_team.logo}}" height="30" width="30"> {{match.away_team}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--    @ {{match.time}} &nbsp;&nbsp;score {{match.goals_home}}:{{match.goals_away}} {{match.date}}-->
+<!--</p>-->
+<!--{% endfor %}-->
+
+<br>
+
+</body>
+</html>
+
+<div class="container">
+  <div class="well">Today's matches</div>
+
+  <table class="table table-condensed table-hover" >
+    <thead>
+
+      <tr>
+
+        <th>Home</th>
+        <th></th>
+        <th>Away</th>
+        <th>Kick-off/Score</th>
+        <th>League</th>
+        <th>Odds Home-Draw-Away</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for match in matches %}
+      <tr>
+        <td><img src="{{match.home_team.logo}}" height="35" width="35"> {{match.home_team}}</td>
+        <td style="width:15%">vs</td>
+        <td><img src="{{match.away_team.logo}}" height="35" width="35"> {{match.away_team}}</td>
+          <td><b>{{match.goals_home}} : {{match.goals_away}}</b></td>
+        <td><img src="{{match.home_team.league.logo}}" height="25" width="25"> {{match.home_team.league.name}} </td>
+      </tr>
+        {%endfor%}
+<!--      <tr>-->
+<!--        <td>Mary</td>-->
+<!--        <td>Moe</td>-->
+<!--        <td>mary@example.com</td>-->
+<!--      </tr>-->
+<!--      <tr>-->
+<!--        <td>July</td>-->
+<!--        <td>Dooley</td>-->
+<!--        <td>july@example.com</td>-->
+<!--      </tr>-->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
