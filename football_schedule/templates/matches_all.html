@@ -43,8 +43,9 @@
 </html>
 
 <div class="container">
-  <div class="well">Today's matches</div>
-
+    {% block head %}
+  <div class="well">All previous matches</div>
+{% endblock %}
   <table class="table table-condensed table-hover" >
     <thead>
 
@@ -58,6 +59,7 @@
         <th>Odds Home-Draw-Away</th>
       </tr>
     </thead>
+      {% block table %}
     <tbody>
         {% for match in matches %}
       <tr>
@@ -66,8 +68,11 @@
         <td><img src="{{match.away_team.logo}}" height="35" width="35"> {{match.away_team}}</td>
           <td><b>{{match.goals_home}} : {{match.goals_away}}</b></td>
         <td><img src="{{match.home_team.league.logo}}" height="25" width="25"> {{match.home_team.league.name}} </td>
+        <td> {{match.odds_home|floatformat:1}} &nbsp;&nbsp;&nbsp;&nbsp;     {{match.odds_draw}} &nbsp;&nbsp;&nbsp;&nbsp;
+            {{match.odds_away}}</td>
       </tr>
         {%endfor%}
+        {% endblock %}
 <!--      <tr>-->
 <!--        <td>Mary</td>-->
 <!--        <td>Moe</td>-->

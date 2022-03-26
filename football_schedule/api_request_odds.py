@@ -4,10 +4,11 @@ from datetime import datetime
 import requests
 
 date_today = str(datetime.now())[0:10]
-print(date_today)
-leagues = {'french': 61, 'english': 39, 'german': 78, 'spanish': 140, 'italian': 135}
 
-db_odds_by_date = []
+leagues = {'french': 61, 'english': 39, 'german': 78, 'spanish': 140, 'italian': 135}
+# 'League one': 41
+
+odds_by_date = []
 
 
 def get_odds(date=date_today, league=39):
@@ -34,28 +35,35 @@ def get_odds(date=date_today, league=39):
         odds_draw = odds[1]['odd']
         odds_away = odds[2]['odd']
 
+        # db_data_odds.append({'pk': fixture_id,
+        #                      'model': 'football_schedule.odds',
+        #                      'fields': {'home_win': odds_home,
+        #                                 'draw': odds_draw,
+        #                                 'away_win': odds_away,
+        #                                 }})
         db_data_odds.append({'pk': fixture_id,
-                             'model': 'football_schedule.odds',
-                             'fields': {'home_win': odds_home,
-                                        'draw': odds_draw,
-                                        'away_team': odds_away,
-                                        }})
+                             'home_win': odds_home,
+                             'draw': odds_draw,
+                             'away_win': odds_away})
+    # print(db_data_odds)
 
     return db_data_odds
 
-def get_all_odds():
+
+def get_odds_by_date():
     for league_name, league_id in leagues.items():
-        all_odds_by_date = get_odds('2022-03-20', league_id)
-        print(all_odds_by_date)
-        return all_odds_by_date
-
-
-
-
+        # all_odds_by_date = get_odds('2022-03-20', league_id)
+        league_odds = get_odds(date_today, league_id)
+        odds_by_date.extend(league_odds)
+    # print(odds_by_date)
+    print(f'number of matches today {len(odds_by_date)}')
+    return odds_by_date
+    # pprint(f"all odds {all_odds_by_date}")
+    # return all_odds_by_date
 
 
 if __name__ == '__main__':
-
-    lista = get_all_odds()
+    # lista = get_odds('2022-03-20', 140)
+    # print(lista)
+    lista = get_odds_by_date()
     print(lista)
-

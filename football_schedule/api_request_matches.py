@@ -2,10 +2,11 @@ import json
 from pprint import pprint
 from datetime import datetime
 import requests
+from api_request_odds import date_today
 
 url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
 
-querystring = {"date": "2022-04-02"}
+querystring = {"date": date_today}
 
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",

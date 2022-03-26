@@ -1,9 +1,6 @@
 import json
 from pprint import pprint
 
-# with open('response_to_json_v2.json') as file:
-#     response_data = json.load(file)
-
 todays_fixtures = []
 
 """Getting response_data and extracting fixtures(values) of relevant leagues"""

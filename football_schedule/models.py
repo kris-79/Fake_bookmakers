@@ -40,8 +40,9 @@ class Match(models.Model):
     time = models.CharField(max_length=8)
     goals_home = models.IntegerField(null=True)
     goals_away = models.IntegerField(null=True)
-    odds = models.FloatField(null=True)
-
+    odds_home = models.FloatField(null=True, blank=True)
+    odds_draw = models.FloatField(null=True, blank=True)
+    odds_away = models.FloatField(null=True, blank=True)
 
     def __str__(self):
         return f'{self.home_team} vs {self.away_team} ---> score:  {self.goals_home}:{self.goals_away}'
