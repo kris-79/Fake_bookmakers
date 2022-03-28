@@ -1,0 +1,272 @@
+[
+   {
+      "pk": 715884,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 1333,
+         "away_team": 1370,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 0,
+         "goals_away": 1,
+         "odds_home": "2.05",
+         "odds_draw": "3.30",
+         "odds_away": "3.60"
+      }
+   },
+   {
+      "pk": 1333,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "AFC Wimbledon",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1333.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1370,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Cambridge United",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1370.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   },
+   {
+      "pk": 715885,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 1360,
+         "away_team": 1347,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 1,
+         "goals_away": 2,
+         "odds_home": "1.85",
+         "odds_draw": "3.50",
+         "odds_away": "4.33"
+      }
+   },
+   {
+      "pk": 1360,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Accrington ST",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1360.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1347,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Gillingham",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1347.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   },
+   {
+      "pk": 715888,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 1354,
+         "away_team": 1335,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 0,
+         "goals_away": 1,
+         "odds_home": "4.00",
+         "odds_draw": "3.50",
+         "odds_away": "1.90"
+      }
+   },
+   {
+      "pk": 1354,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Doncaster",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1354.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1335,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Charlton",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1335.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   },
+   {
+      "pk": 715889,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 57,
+         "away_team": 1357,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 1,
+         "goals_away": 0,
+         "odds_home": "1.80",
+         "odds_draw": "3.60",
+         "odds_away": "4.33"
+      }
+   },
+   {
+      "pk": 57,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Ipswich",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/57.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1357,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Plymouth",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1357.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   },
+   {
+      "pk": 715892,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 74,
+         "away_team": 1372,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 4,
+         "goals_away": 1,
+         "odds_home": "1.50",
+         "odds_draw": "4.20",
+         "odds_away": "6.50"
+      }
+   },
+   {
+      "pk": 74,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Sheffield Wednesday",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/74.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1372,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Cheltenham",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1372.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   },
+   {
+      "pk": 715893,
+      "model": "football_schedule.match",
+      "fields": {
+         "home_team": 1352,
+         "away_team": 1379,
+         "date": "2022-03-26",
+         "time": "15:00",
+         "goals_home": 1,
+         "goals_away": 0,
+         "odds_home": "1.95",
+         "odds_draw": "3.50",
+         "odds_away": "3.90"
+      }
+   },
+   {
+      "pk": 1352,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Shrewsbury",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1352.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 1379,
+      "model": "football_schedule.team",
+      "fields": {
+         "name": "Lincoln",
+         "country": "England",
+         "form": "WWWWW",
+         "logo": "https://media.api-sports.io/football/teams/1379.png",
+         "league": 41
+      }
+   },
+   {
+      "pk": 41,
+      "model": "football_schedule.league",
+      "fields": {
+         "name": "League One",
+         "logo": "https://media.api-sports.io/football/leagues/41.png"
+      }
+   }
+]

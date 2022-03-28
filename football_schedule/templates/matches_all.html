@@ -46,17 +46,21 @@
     {% block head %}
   <div class="well">All previous matches</div>
 {% endblock %}
-  <table class="table table-condensed table-hover" >
+ <table class="table table-condensed table-hover" >
     <thead>
 
       <tr>
-
+        {% block t_head %}
         <th>Home</th>
         <th></th>
         <th>Away</th>
         <th>Kick-off/Score</th>
         <th>League</th>
-        <th>Odds Home-Draw-Away</th>
+        <th>Archive odds <br>Home-Draw-Away</th>
+          {% endblock %}
+
+
+
       </tr>
     </thead>
       {% block table %}
@@ -73,16 +77,7 @@
       </tr>
         {%endfor%}
         {% endblock %}
-<!--      <tr>-->
-<!--        <td>Mary</td>-->
-<!--        <td>Moe</td>-->
-<!--        <td>mary@example.com</td>-->
-<!--      </tr>-->
-<!--      <tr>-->
-<!--        <td>July</td>-->
-<!--        <td>Dooley</td>-->
-<!--        <td>july@example.com</td>-->
-<!--      </tr>-->
+
     </tbody>
   </table>
 </div>

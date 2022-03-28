@@ -1,6 +1,4 @@
 import json
-from pprint import pprint
-from datetime import datetime
 import requests
 from api_request_odds import date_today
 
@@ -15,9 +13,8 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 response_to_json = response.json()
-print(response_to_json)
 
-with open('response_to_json_v2.json', 'w') as file:
+with open('response_matches.json', 'w') as file:
     json.dump(response_to_json, file, indent=3)
 
 print(response_to_json)

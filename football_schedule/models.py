@@ -45,4 +45,7 @@ class Match(models.Model):
     odds_away = models.FloatField(null=True, blank=True)
 
     def __str__(self):
-        return f'{self.home_team} vs {self.away_team} ---> score:  {self.goals_home}:{self.goals_away}'
+        return f'{self.home_team} vs {self.away_team} at  {self.time} on {self.date}'
+
+
+
